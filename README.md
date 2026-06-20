@@ -1,24 +1,21 @@
 # Ejercicio-de-Promocion-para-IP-2026
 Es una "Juego" simple de consola desarrollada en Java como parte del desafío final de Introduccion a la Programación. El objetivo del juego es que el usuario logre adivinar un número aleatorio generado automáticamente por el sistema dentro de un rango de 1 a 50.
 
-========================================================================
+
                          DETALLES DEL JUEGO
-========================================================================
+
 
 1. NOMBRE DEL JUEGO
-------------------------------------------------------------------------
 ¡Adivina el Número!
 
 
 2. DESCRIPCION
-------------------------------------------------------------------------
 Una aplicacion de consola desarrollada en Java donde el usuario debe 
 adivinar un número aleatorio secreto generado por el sistema dentro de 
 un rango y con un numero limitado de intentos.
 
 
 3. FUNCIONALIDADES DEL PROYECTO + 1 FUNCION QUE NO SE PIDIO
-------------------------------------------------------------------------
 * Generación de numeros aleatorios: El juego genera un número 
   aleatorio entre 1 y 50.
 
@@ -47,19 +44,18 @@ un rango y con un numero limitado de intentos.
 
 
 6. TRAMPA
--------------------------------------------------------------------------
-=======================================================================
+
                 (aLGORITMO DE BuSQUEDA BINARIA)
-=======================================================================
+
 
 Existe un método matemático para ganar siempre usando la menor cantidad 
 de intentos posibles. Este método se llama Busqueda Binaria.
 
 (Consiste en descartar la mitad de las opciones en cada intento.)
 
-=======================================================================
+
           EJEMPLO PRaCTICO DE JUEGO (buSQUEDA BINARIA)
-=======================================================================
+
 
 Así se ve una partida real aplicando este método paso a paso:
 
@@ -92,4 +88,3 @@ Estoy pensando en un número entre 1 y 50. Tienes 5 intentos.
 
 Al dividir el rango a la mitad de forma matemática en cada paso, 
 llegamos al número exacto (49) justo en el último intento disponible.
-=======================================================================
